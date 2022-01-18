@@ -6,7 +6,7 @@ import { css } from "styled-components/macro"; //eslint-disable-line
 
 import useAnimatedNavToggler from "../../helpers/useAnimatedNavToggler.js";
 
-// import logo from "../../images/logo.svg";
+import logo from "../../images/logo6.svg";
 import { ReactComponent as MenuIcon } from "feather-icons/dist/icons/menu.svg";
 import { ReactComponent as CloseIcon } from "feather-icons/dist/icons/x.svg";
 
@@ -34,7 +34,7 @@ export const PrimaryLink = tw(NavLink)`
 `;
 
 export const LogoLink = styled(NavLink)`
-    ${tw`flex items-center font-black border-b-0 text-2xl! ml-0!`};
+    ${tw`flex items-center font-black border-b-0 text-2xl! ml-0! hocus:opacity-50`};
 
     img {
         ${tw`w-10 mr-3`}
@@ -98,8 +98,8 @@ export default ({
 
     const defaultLogoLink = (
         <LogoLink href="/">
-            {/* <img src={logo} alt="logo" /> */}
-            Dave Dwight
+            <img src={logo} alt="logo" />
+            {/* Dave Dwight */}
         </LogoLink>
     );
 
