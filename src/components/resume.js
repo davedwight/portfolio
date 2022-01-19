@@ -1,4 +1,4 @@
-import resume from "../../src/DaveDwightResume.pdf";
+import resume from "../../src/resume_11822.pdf";
 
 export default function Resume() {
     const divStyle = {
@@ -13,12 +13,12 @@ export default function Resume() {
                 width="100%"
                 height="100%"
             >
-                <p>
+                {/* <p>
                     Alternative text - include a link{" "}
                     <a href="http://africau.edu/images/default/sample.pdf">
                         to the PDF!
                     </a>
-                </p>
+                </p> */}
             </object>
         </div>
     );
