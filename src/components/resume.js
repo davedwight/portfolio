@@ -1,4 +1,4 @@
-import resume from "../../src/resume_11822.pdf";
+import resume from "../../src/resume_11922.pdf";
 
 export default function Resume() {
     const divStyle = {
