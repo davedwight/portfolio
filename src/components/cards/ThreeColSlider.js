@@ -107,7 +107,8 @@ export default () => {
             locationText: "Rome, Italy",
             pricingText: "USD 39/Day",
             rating: "4.8",
-            link: "https://github.com/davedwight",
+            githubLink: "https://github.com/davedwight/Fitt-FE",
+            liveLink: "https://fitt.vercel.app/",
             stack: [
                 "https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB",
                 "https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white",
@@ -128,7 +129,9 @@ export default () => {
             locationText: "Ibiza, Spain",
             pricingText: "USD 50/Day",
             rating: 4.9,
-            link: "https://github.com/davedwight",
+            githubLink:
+                "https://github.com/BloomTech-Labs/family-promise-service-tracker-be-a",
+            liveLink: "https://www.davedwight.com/",
             stack: [
                 "https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB",
                 "https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white",
@@ -151,7 +154,8 @@ export default () => {
             locationText: "Palo Alto, CA",
             pricingText: "USD 19/Day",
             rating: "5.0",
-            link: "https://github.com/davedwight",
+            githubLink: "https://github.com/davedwight/cava-homes",
+            liveLink: "https://cava-homes.vercel.app/",
             stack: [
                 "https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB",
                 "https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white",
@@ -169,7 +173,8 @@ export default () => {
             locationText: "Arizona, RAK",
             pricingText: "USD 99/Day",
             rating: 4.5,
-            link: "https://github.com/davedwight",
+            githubLink: "https://github.com/davedwight/personal-site-treact",
+            liveLink: "https://www.davedwight.com/",
             stack: [
                 "https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB",
                 "https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white",
@@ -200,7 +205,7 @@ export default () => {
                                 <TitleReviewContainer>
                                     <Title>{card.title}</Title>
                                     <RatingsInfo>
-                                        <SocialLink href={card.link}>
+                                        <SocialLink href={card.githubLink}>
                                             <GithubIcon />
                                         </SocialLink>
                                     </RatingsInfo>
@@ -212,7 +217,7 @@ export default () => {
                                 </SecondaryInfoContainer>
                                 <Description>{card.description}</Description>
                             </TextInfo>
-                            <PrimaryButtonContainer href="https://cava-homes.vercel.app/">
+                            <PrimaryButtonContainer href={card.liveLink}>
                                 <PrimaryButton>View Live Site</PrimaryButton>
                             </PrimaryButtonContainer>
                         </Card>
