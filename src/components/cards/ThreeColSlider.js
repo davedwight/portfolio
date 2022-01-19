@@ -103,7 +103,7 @@ export default () => {
                 "https://images.unsplash.com/photo-1598136490929-292a0a7890c2?crop=entropy&cs=srgb&fm=jpg&ixid=MnwyOTEwNTl8MHwxfGFsbHx8fHx8fHx8fDE2NDIxNTE5ODc&ixlib=rb-1.2.1&q=85",
             title: "Fitt",
             description:
-                "Platform for personal trainers to manage virtual coaching sessions.",
+                "A platform for personal trainers to manage virtual coaching sessions.",
             locationText: "Rome, Italy",
             pricingText: "USD 39/Day",
             rating: "4.8",
