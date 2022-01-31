@@ -131,7 +131,7 @@ export default () => {
             rating: 4.9,
             githubLink:
                 "https://github.com/BloomTech-Labs/family-promise-service-tracker-be-a",
-            liveLink: "https://www.davedwight.com/",
+            liveLink: "https://family-promise-service-tracker.vercel.app/",
             stack: [
                 "https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB",
                 "https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white",
