@@ -100,6 +100,24 @@ export default () => {
     const cards = [
         {
             imageSrc:
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Typical_Tetris_Game.svg/1200px-Typical_Tetris_Game.svg.png",
+            title: "Tetris",
+            description:
+                "Simple Tetris game written in JavaScript and deployed with Replit",
+            locationText: "Rome, Italy",
+            pricingText: "USD 39/Day",
+            rating: "4.8",
+            githubLink: "https://replit.com/@porcupineman/tetris",
+            liveLink: "https://tetris.porcupineman.repl.co",
+            stack: [
+                "https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E",
+                "https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white",
+                "https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white",
+                "https://img.shields.io/badge/replit-667881?style=for-the-badge&logo=replit&logoColor=white",
+            ],
+        },
+        {
+            imageSrc:
                 "https://images.unsplash.com/photo-1598136490929-292a0a7890c2?crop=entropy&cs=srgb&fm=jpg&ixid=MnwyOTEwNTl8MHwxfGFsbHx8fHx8fHx8fDE2NDIxNTE5ODc&ixlib=rb-1.2.1&q=85",
             title: "Fitt",
             description:
