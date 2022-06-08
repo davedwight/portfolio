@@ -10,6 +10,7 @@ import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons";
 import { ReactComponent as ChevronLeftIcon } from "feather-icons/dist/icons/chevron-left.svg";
 import { ReactComponent as ChevronRightIcon } from "feather-icons/dist/icons/chevron-right.svg";
 import { ReactComponent as GithubIcon } from "../../images/github-icon.svg";
+import OverUnder from "../../overunder.png";
 
 const Container = tw.div`relative`;
 const Content = tw.div`max-w-screen-xl mx-auto py-16 lg:py-20`;
@@ -99,8 +100,7 @@ export default () => {
     /* Change this according to your needs */
     const cards = [
         {
-            imageSrc:
-                "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Typical_Tetris_Game.svg/1200px-Typical_Tetris_Game.svg.png",
+            imageSrc: OverUnder,
             title: "OVER / UNDER",
             description:
                 "Fullstack web application for betting on stocks with friends",

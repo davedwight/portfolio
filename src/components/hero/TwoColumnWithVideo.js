@@ -41,7 +41,7 @@ const DecoratorBlob2 = styled(SvgDecoratorBlob2)`
 
 export default ({
     heading = "Hi, I'm Dave Dwight.",
-    description = "I'm a full stack engineer interested in solving hard problems with talented teammates. I'm most comfortable in Javascript, React, Node, and Python and I love learning new languages. Check out some of my latest work below!",
+    description = "Welcome to my portfolio. I'm a software engineer at CapTech interested in working across the full stack with ambitious teammates. Check out my work below and shoot me an email at dpdwight@gmail.com.",
     imageSrc = Headshot,
     imageCss = "border-radius: 10px; width: 60%; margin: 0 auto;",
     imageDecoratorBlob = false,
