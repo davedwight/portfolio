@@ -101,19 +101,24 @@ export default () => {
         {
             imageSrc:
                 "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Typical_Tetris_Game.svg/1200px-Typical_Tetris_Game.svg.png",
-            title: "Tetris",
+            title: "OVER / UNDER",
             description:
-                "Simple Tetris game written in JavaScript and deployed with Replit",
+                "Fullstack web application for betting on stocks with friends",
             locationText: "Rome, Italy",
             pricingText: "USD 39/Day",
             rating: "4.8",
-            githubLink: "https://replit.com/@porcupineman/tetris",
-            liveLink: "https://tetris.porcupineman.repl.co",
+            githubLink: "https://github.com/davedwight/over-under-fe",
+            liveLink: "http://overunder.online/",
             stack: [
+                "https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB",
                 "https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E",
                 "https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white",
                 "https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white",
-                "https://img.shields.io/badge/replit-667881?style=for-the-badge&logo=replit&logoColor=white",
+                "https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white",
+                "https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white",
+                "https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white",
+                "https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white",
+                "https://img.shields.io/badge/Twilio-F22F46?style=for-the-badge&logo=Twilio&logoColor=white",
             ],
         },
         {
