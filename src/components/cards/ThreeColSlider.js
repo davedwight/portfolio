@@ -10,7 +10,11 @@ import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons";
 import { ReactComponent as ChevronLeftIcon } from "feather-icons/dist/icons/chevron-left.svg";
 import { ReactComponent as ChevronRightIcon } from "feather-icons/dist/icons/chevron-right.svg";
 import { ReactComponent as GithubIcon } from "../../images/github-icon.svg";
-import OverUnder from "../../overunder.png";
+import OverUnder from "../../assets/overunder.png";
+import Fitt from "../../assets/fitt_gif.gif";
+import FamilyPromise from "../../assets/family_promise_screenshot.png";
+import Cava from "../../assets/cava_screenshot.png";
+import Portfolio from "../../assets/portfolio_screenshot.png";
 
 const Container = tw.div`relative`;
 const Content = tw.div`max-w-screen-xl mx-auto py-16 lg:py-20`;
@@ -122,8 +126,7 @@ export default () => {
             ],
         },
         {
-            imageSrc:
-                "https://images.unsplash.com/photo-1598136490929-292a0a7890c2?crop=entropy&cs=srgb&fm=jpg&ixid=MnwyOTEwNTl8MHwxfGFsbHx8fHx8fHx8fDE2NDIxNTE5ODc&ixlib=rb-1.2.1&q=85",
+            imageSrc: Fitt,
             title: "Fitt",
             description:
                 "A platform for personal trainers to manage virtual coaching sessions.",
@@ -144,8 +147,7 @@ export default () => {
             ],
         },
         {
-            imageSrc:
-                "https://images.unsplash.com/photo-1628717341663-0007b0ee2597?crop=entropy&cs=srgb&fm=jpg&ixid=MnwyOTEwNTl8MHwxfGFsbHx8fHx8fHx8fDE2NDIxNTI0NTU&ixlib=rb-1.2.1&q=85",
+            imageSrc: FamilyPromise,
             title: "Family Promise Service Tracker",
             description:
                 "An iPad first map application that enables detailed logging and analytics of services to the homeless at risk population in Spokane, WA.",
@@ -169,8 +171,7 @@ export default () => {
             ],
         },
         {
-            imageSrc:
-                "https://images.unsplash.com/photo-1595844730298-b960ff98fee0?crop=entropy&cs=srgb&fm=jpg&ixid=MnwyOTEwNTl8MHwxfGFsbHx8fHx8fHx8fDE2NDIxNTIzMjA&ixlib=rb-1.2.1&q=85",
+            imageSrc: Cava,
             title: "CAVA Homes",
             description:
                 "A landing page with an embedded Typeform for a renovation and construction business in San Luis Obispo, CA. Styled with no frameworks, just pure CSS, save one modal component from Material UI.",
@@ -188,8 +189,7 @@ export default () => {
             ],
         },
         {
-            imageSrc:
-                "https://images.unsplash.com/photo-1579403124614-197f69d8187b?crop=entropy&cs=srgb&fm=jpg&ixid=MnwyOTEwNTl8MHwxfGFsbHx8fHx8fHx8fDE2NDIxNTI1NjY&ixlib=rb-1.2.1&q=85",
+            imageSrc: Portfolio,
             title: "Portfolio",
             description:
                 "This website. Built with Treact — a library of customizable TailwindCSS components.",
@@ -240,7 +240,10 @@ export default () => {
                                 </SecondaryInfoContainer>
                                 <Description>{card.description}</Description>
                             </TextInfo>
-                            <PrimaryButtonContainer href={card.liveLink}>
+                            <PrimaryButtonContainer
+                                href={card.liveLink}
+                                target="_blank"
+                            >
                                 <PrimaryButton>View Live Site</PrimaryButton>
                             </PrimaryButtonContainer>
                         </Card>
