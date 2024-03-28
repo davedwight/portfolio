@@ -7,7 +7,7 @@ export default function Main() {
         <h1 className="title">Dave Dwight</h1>
         <p>
           I’m a Software Engineer currently working on serverless data
-          processing systems and fullstack applications for clients at CapTech
+          processing systems and full stack applications for clients at CapTech
           Ventures. I have experience in product and operations at high growth,
           venture backed companies, leading teams that have brought new products
           to market in the US and abroad. I’m passionate about building software
